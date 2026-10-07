@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AIフロンティア｜次世代AI研究会 ― 月1回のAI情報交換会（無料会員制）</title>
+<meta name="description" content="AIでエージェントやシステムをつくる人、これから始めたい人が月1回集まる研究会。運営は福岡の株式会社デジたす。会員登録は無料です。">
+<meta property="og:title" content="AIフロンティア｜次世代AI研究会">
+<meta property="og:description" content="つくる人が、つながる場所。月1回の情報交換会と技術交流。会員登録は無料です。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="logo.png">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== ヘッダー ===== -->
+<header class="header">
+  <div class="header-in">
+    <a href="#top" class="brand"><img src="logo.png" alt="AIフロンティア 次世代AI研究会" width="390" height="92"></a>
+    <nav class="gnav" id="gnav" aria-label="メニュー">
+      <a href="#top">ホーム</a>
+      <a href="#features">特長</a>
+      <a href="#program">活動内容</a>
+      <a href="#plan">会員プラン</a>
+      <a href="#faq">よくある質問</a>
+    </nav>
+    <div class="header-cta">
+      <a href="#join" class="btn btn-main btn-sm">無料で会員登録</a>
+      <a href="#program" class="btn btn-sub btn-sm">活動内容を見る</a>
+    </div>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span><em>メニュー</em></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===== ヒーロー ===== -->
+<section class="hero">
+  <div class="hero-in">
+    <div class="hero-text">
+      <p class="hero-tag"><span>AI</span>×<span>人</span>×<span>社会</span>をつなぐ研究会</p>
+      <h1>つくる人が、<br>つながる場所。</h1>
+      <p class="hero-sub">ひとりで試していたAIを、みんなで育てる。<br>月に1回、知恵と作品を持ち寄る情報交換会です。</p>
+      <div class="cta-box">
+        <p class="cta-catch">はじめての方も、手ぶらで参加できます。</p>
+        <div class="cta-btns">
+          <a href="#join" class="btn btn-main btn-lg"><small>1分でカンタン</small>無料で会員登録する</a>
+          <a href="#program" class="btn btn-sub btn-lg">活動内容を見る</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hv-blob"></div>
+      <svg viewBox="-130 -130 260 260" class="knot">
+        <defs><mask id="cut"><rect x="-130" y="-130" width="260" height="260" fill="#fff"/><rect x="-34" y="-36" width="24" height="26" fill="#000"/><rect x="10" y="10" width="24" height="26" fill="#000"/></mask></defs>
+        <g class="link-h"><rect x="-110" y="-28" width="220" height="56" rx="28" fill="none" stroke="var(--mint)" stroke-width="13"/></g>
+        <g class="link-v" mask="url(#cut)"><rect x="-28" y="-110" width="56" height="220" rx="28" fill="none" stroke="#fff" stroke-width="24"/><rect x="-28" y="-110" width="56" height="220" rx="28" fill="none" stroke="var(--sky)" stroke-width="13"/></g>
+      </svg>
+      <div class="hv-card hv-card1"><b>テーマの例</b><span>AIエージェントで<br>日報を自動化してみた</span></div>
+      <div class="hv-card hv-card2"><b>参加のしかた</b><span>会場 ／ オンライン</span></div>
+      <div class="hv-chip hv-chip1">エージェントづくり</div>
+      <div class="hv-chip hv-chip2">業務の自動化</div>
+      <div class="hv-chip hv-chip3">はじめての一歩</div>
+      <svg class="star s1" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"/></svg>
+      <svg class="star s2" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3ステップ ===== -->
+<section class="sec steps-sec">
+  <div class="in">
+    <h2 class="h2 center">ひとりの試作を、<br class="sp"><mark>みんなの知恵</mark>へ。</h2>
+    <ol class="steps">
+      <li>
+        <div class="step-ico"><svg viewBox="0 0 64 64"><rect x="14" y="10" width="36" height="44" rx="6"/><path d="M22 24h20M22 32h20M22 40h12"/></svg></div>
+        <h3>無料で会員登録</h3>
+        <p>1分で完了。<br>会費はかかりません</p>
+      </li>
+      <li>
+        <div class="step-ico"><svg viewBox="0 0 64 64"><circle cx="32" cy="34" r="12"/><circle cx="12" cy="20" r="6"/><circle cx="52" cy="20" r="6"/><circle cx="12" cy="50" r="6"/><circle cx="52" cy="50" r="6"/></svg></div>
+        <h3>月に1回集まる</h3>
+        <p>会場でもオンラインでも。<br>出られる回だけでOK</p>
+      </li>
+      <li>
+        <div class="step-ico"><svg viewBox="0 0 64 64"><path d="M20 22l-10 10 10 10M44 22l10 10-10 10M36 16l-8 32"/></svg></div>
+        <h3>つくって持ち寄る</h3>
+        <p>作品も、つまずきも。<br>発表して、教え合う</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 問題提起 ===== -->
+<section class="sec issue-sec">
+  <div class="in issue-in">
+    <div class="issue-art" aria-hidden="true">
+      <svg viewBox="0 0 240 200">
+        <ellipse cx="120" cy="176" rx="90" ry="12" fill="#E3EEF5"/>
+        <rect x="70" y="92" width="100" height="62" rx="10" fill="#fff" stroke="#1D3A6A" stroke-width="4"/>
+        <rect x="80" y="102" width="80" height="40" rx="4" fill="#EAF6FC"/>
+        <path d="M60 154h120" stroke="#1D3A6A" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="120" cy="60" r="22" fill="#fff" stroke="#1D3A6A" stroke-width="4"/>
+        <path d="M112 64q8 -6 16 0" fill="none" stroke="#1D3A6A" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="113" cy="56" r="2.5" fill="#1D3A6A"/><circle cx="127" cy="56" r="2.5" fill="#1D3A6A"/>
+        <g fill="#3DB0E3" font-family="Zen Maru Gothic, sans-serif" font-weight="900"><text x="160" y="46" font-size="30">?</text><text x="62" y="36" font-size="22">?</text><text x="182" y="80" font-size="18">?</text></g>
+      </svg>
+    </div>
+    <div class="issue-text">
+      <h2 class="h2">なぜ、AIの独学は<br>続かないのか？</h2>
+      <p>情報が足りないわけではありません。<br>動画も記事も、毎日あふれるほど出ています。</p>
+      <p class="strong">足りないのは「聞ける相手」と「見せる場所」です。</p>
+      <p>うまくいかないとき、誰にも聞けずに止まってしまう。つくったものを見せる場がないから、続ける理由が見つからない。AIの勉強は、ひとりで山に登るのに似ています。道に迷っても、声をかけてくれる人がいないのです。</p>
+      <p>AIフロンティアは、同じ山を登る仲間と、月に1回「山小屋」で集まる場所です。地図を見せ合い、近道を教え合い、また次の1か月を登っていけます。</p>
+      <a href="#features" class="text-link">AIフロンティアの特長を見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== こんな人が集まります ===== -->
+<section class="sec people-sec">
+  <div class="in">
+    <p class="kicker center">参加者のイメージ</p>
+    <h2 class="h2 center">いろいろな立場の人が、<br class="sp"><mark>同じテーブル</mark>に。</h2>
+    <div class="people">
+      <div class="person">
+        <svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="38" fill="#EAF6FC"/><circle cx="40" cy="32" r="12" fill="#3DB0E3"/><path d="M18 66q22-24 44 0" fill="#3DB0E3"/></svg>
+        <p class="p-who">会社員・エンジニア</p>
+        <p class="p-what"><i></i>社内業務をAIで自動化したい</p>
+      </div>
+      <div class="person">
+        <svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="38" fill="#EDF8EF"/><circle cx="40" cy="32" r="12" fill="#5DBF78"/><path d="M18 66q22-24 44 0" fill="#5DBF78"/></svg>
+        <p class="p-who">経営者・個人事業主</p>
+        <p class="p-what"><i></i>自社にどう取り入れるか知りたい</p>
+      </div>
+      <div class="person">
+        <svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="38" fill="#FFF6DD"/><circle cx="40" cy="32" r="12" fill="#F2B526"/><path d="M18 66q22-24 44 0" fill="#F2B526"/></svg>
+        <p class="p-who">学生・これから始める人</p>
+        <p class="p-what"><i></i>まずは何ができるか知りたい</p>
+      </div>
+    </div>
+    <p class="center note">プログラミング経験は問いません。聞くだけの参加も歓迎です。</p>
+  </div>
+</section>
+
+<!-- ===== 一文字ずつのキャッチ ===== -->
+<section class="catch-sec" aria-label="キャッチコピー">
+  <p class="catch-small">AIフロンティアが目指すこと</p>
+  <p class="catch" data-split>ひとりで悩む時間から、<br>みんなで進む時間へ。</p>
+</section>
+
+<!-- ===== 特長 ===== -->
+<section class="sec features-sec" id="features">
+  <div class="in">
+    <h2 class="h2 center">特長</h2>
+    <p class="lead center">「知る」「つくる」「つながる」「ひろげる」を、ひとつの会で。<br>AIを、自分のためだけでなく社会の役に立つ道具に育てます。</p>
+
+    <article class="feature">
+      <div class="f-text">
+        <span class="f-label">情報交換会</span>
+        <h3>月に1回、<br>知恵を持ち寄る場所</h3>
+        <p>最近さわったAI、うまくいったこと、つまずいたこと。2時間ほどの会で、興味の近い人同士が小さなテーブルに分かれて話します。ニュースを追いかけきれない人も、ここに来れば流れがつかめます。</p>
+        <ul class="checks"><li>会場・オンラインどちらからでも参加可能</li><li>出られる回だけの参加でOK</li></ul>
+      </div>
+      <div class="f-art" aria-hidden="true">
+        <svg viewBox="0 0 300 220"><rect x="10" y="10" width="280" height="200" rx="24" fill="#EAF6FC"/><ellipse cx="150" cy="120" rx="80" ry="40" fill="#fff" stroke="#1D3A6A" stroke-width="4"/><g fill="#3DB0E3"><circle cx="70" cy="70" r="14"/><circle cx="150" cy="56" r="14"/><circle cx="230" cy="70" r="14"/></g><g fill="#86D89A"><circle cx="70" cy="172" r="14"/><circle cx="150" cy="182" r="14"/><circle cx="230" cy="172" r="14"/></g><rect x="118" y="106" width="64" height="28" rx="14" fill="#FFC94A"/><text x="150" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#1D3A6A" font-family="Zen Maru Gothic, sans-serif">AI</text></svg>
+      </div>
+    </article>
+
+    <article class="feature rev">
+      <div class="f-text">
+        <span class="f-label">ミニ発表</span>
+        <h3>途中の試作こそ、<br>いちばんの教材</h3>
+        <p>手を挙げた人が5分で、つくったエージェントや試した方法を紹介します。完成品でなくて大丈夫。「ここでつまずいた」という話が、聞いている人にとってはいちばん役に立ちます。</p>
+        <ul class="checks"><li>発表は希望者のみ。聞くだけでもOK</li><li>会場で質問・フィードバックがもらえる</li></ul>
+      </div>
+      <div class="f-art" aria-hidden="true">
+        <svg viewBox="0 0 300 220"><rect x="10" y="10" width="280" height="200" rx="24" fill="#EDF8EF"/><rect x="50" y="36" width="200" height="120" rx="10" fill="#fff" stroke="#1D3A6A" stroke-width="4"/><rect x="70" y="112" width="24" height="28" fill="#86D89A"/><rect x="104" y="92" width="24" height="48" fill="#3DB0E3"/><rect x="138" y="72" width="24" height="68" fill="#86D89A"/><rect x="172" y="56" width="24" height="84" fill="#3DB0E3"/><path d="M150 156v26M120 190h60" stroke="#1D3A6A" stroke-width="4" stroke-linecap="round"/><text x="212" y="60" font-size="13" font-weight="700" fill="#1D3A6A" font-family="Zen Maru Gothic, sans-serif">5分</text></svg>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="f-text">
+        <span class="f-label">技術交流</span>
+        <h3>AIの現場を知る<br>メンバーと話せる</h3>
+        <p>運営は、福岡でAIの開発・導入に取り組む株式会社デジたす。実際に企業へAIを導入している運営メンバーや会員同士で、技術の話ができます。「この使い方で合ってる？」を気軽に確かめられます。</p>
+        <ul class="checks"><li>エージェント設計から業務導入まで話題は幅広く</li><li>営業目的の勧誘はしません</li></ul>
+      </div>
+      <div class="f-art" aria-hidden="true">
+        <svg viewBox="0 0 300 220"><rect x="10" y="10" width="280" height="200" rx="24" fill="#EAF6FC"/><rect x="36" y="44" width="150" height="62" rx="18" fill="#fff" stroke="#1D3A6A" stroke-width="4"/><path d="M62 106l-8 18 22-18" fill="#fff" stroke="#1D3A6A" stroke-width="4" stroke-linejoin="round"/><text x="111" y="83" text-anchor="middle" font-size="20" font-weight="700" fill="#3DB0E3" font-family="monospace">&lt;/&gt;</text><rect x="114" y="122" width="150" height="62" rx="18" fill="#3DB0E3"/><path d="M238 184l8 16-22-16" fill="#3DB0E3"/><text x="189" y="160" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="Zen Maru Gothic, sans-serif">こうすると早いよ</text></svg>
+      </div>
+    </article>
+
+    <article class="feature rev">
+      <div class="f-text">
+        <span class="f-label">社会に広げる</span>
+        <h3>AIを、地域と<br>社会の役に立てる</h3>
+        <p>仕事や暮らし、地域の困りごとにAIをどう使えるか。会員のアイデアを持ち寄り、実際に形にしていきます。AIを「一部の詳しい人の道具」から「みんなの道具」へ広げるのが、この会の目標です。</p>
+        <ul class="checks"><li>地域・社会課題をテーマにした回も開催</li><li>会員発のプロジェクトを応援</li></ul>
+      </div>
+      <div class="f-art" aria-hidden="true">
+        <svg viewBox="0 0 300 220"><rect x="10" y="10" width="280" height="200" rx="24" fill="#EDF8EF"/><path d="M60 150L110 90 150 130 200 70 240 110" fill="none" stroke="#86D89A" stroke-width="5" stroke-dasharray="2 10" stroke-linecap="round"/><g fill="#fff" stroke="#1D3A6A" stroke-width="4"><path d="M44 150h32v36H44z"/><path d="M96 90h28v40H96z"/><path d="M136 130h28v50h-28z"/><path d="M186 70h28v56h-28z"/><path d="M226 110h28v70h-28z"/></g><g fill="#FFC94A"><circle cx="60" cy="140" r="7"/><circle cx="110" cy="80" r="7"/><circle cx="150" cy="120" r="7"/><circle cx="200" cy="60" r="7"/><circle cx="240" cy="100" r="7"/></g></svg>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== CTA帯 ===== -->
+<section class="cta-band">
+  <p class="cta-catch">はじめての方も、手ぶらで参加できます。</p>
+  <div class="cta-btns">
+    <a href="#join" class="btn btn-main btn-lg"><small>1分でカンタン</small>無料で会員登録する</a>
+    <a href="#program" class="btn btn-sub btn-lg">活動内容を見る</a>
+  </div>
+</section>
+
+<!-- ===== 比較表 ===== -->
+<section class="sec compare-sec">
+  <div class="in">
+    <h2 class="h2 center">続けられるかどうかは、<br class="sp"><mark>環境</mark>で変わります。</h2>
+    <div class="table-wrap">
+      <table class="compare">
+        <thead><tr><th scope="col"></th><th scope="col">独学</th><th scope="col">一般的な<br>セミナー</th><th scope="col" class="us">AIフロンティア</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">わからない所を聞ける</th><td><span class="m x">×</span></td><td><span class="m t">△</span></td><td class="us"><span class="m o2">◎</span></td></tr>
+          <tr><th scope="row">つくった物を見せられる</th><td><span class="m x">×</span></td><td><span class="m x">×</span></td><td class="us"><span class="m o2">◎</span></td></tr>
+          <tr><th scope="row">仲間ができる</th><td><span class="m x">×</span></td><td><span class="m t">△</span></td><td class="us"><span class="m o2">◎</span></td></tr>
+          <tr><th scope="row">毎月続けやすい</th><td><span class="m t">△</span></td><td><span class="m t">△</span></td><td class="us"><span class="m o2">◎</span></td></tr>
+          <tr><th scope="row">自分のペースで進める</th><td><span class="m o2">◎</span></td><td><span class="m t">△</span></td><td class="us"><span class="m o">○</span></td></tr>
+          <tr><th scope="row">費用</th><td><span class="m o">○</span></td><td><span class="m t">△</span></td><td class="us"><span class="m o2">◎</span><small>無料</small></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note center">◎とても向いている ○向いている △場合による ×向いていない（運営の考えによる目安です）</p>
+  </div>
+</section>
+
+<!-- ===== 参加後の変化 ===== -->
+<section class="sec change-sec">
+  <div class="in">
+    <h2 class="h2 center">参加すると、こう変わります</h2>
+    <div class="changes">
+      <p class="bubble">つまずいても<br><b>すぐ聞ける</b></p>
+      <p class="bubble">つくる<br><b>目標ができる</b></p>
+      <p class="bubble">AIの話が<br><b>できる仲間が増える</b></p>
+    </div>
+    <div class="change-arrow" aria-hidden="true"></div>
+    <p class="change-result">AIが「調べるもの」から<br class="sp">「<mark>使いこなすもの</mark>」になる！</p>
+  </div>
+</section>
+
+<!-- ===== 活動内容（当日の流れ） ===== -->
+<section class="sec program-sec" id="program">
+  <div class="in">
+    <h2 class="h2 center">活動内容</h2>
+    <p class="lead center">情報交換会は、おおよそ2時間。<br>会員の方には、日程と会場をメールでご案内します。</p>
+    <div class="flowchart">
+      <div class="fc-col">
+        <span class="fc-tag">はじめに</span>
+        <div class="fc-box"><h3>近況のひとこと</h3><p>最近さわったAI、うまくいったこと、つまずいたこと。ひとり30秒で十分です。</p></div>
+      </div>
+      <div class="fc-col">
+        <span class="fc-tag">発表</span>
+        <div class="fc-box"><h3>5分ミニ発表</h3><p>手を挙げた数名が、つくったものや試した方法を紹介します。</p></div>
+      </div>
+      <div class="fc-col">
+        <span class="fc-tag">交流</span>
+        <div class="fc-box"><h3>テーマ別のおしゃべり</h3><p>「業務の自動化」「エージェントづくり」など、興味の近い人同士で話します。</p></div>
+      </div>
+      <div class="fc-col">
+        <span class="fc-tag">おわりに</span>
+        <div class="fc-box"><h3>次回までの小さな宿題</h3><p>「来月までにこれを試す」をひとつ決めて帰ります。</p></div>
+      </div>
+    </div>
+    <p class="note center">※ 進め方は回によって変わることがあります。</p>
+
+    <h3 class="h3 center">会員ができること</h3>
+    <div class="grid6">
+      <div class="g-item"><svg viewBox="0 0 48 48"><rect x="6" y="10" width="36" height="32" rx="5"/><path d="M6 20h36M16 6v8M32 6v8"/></svg><h4>情報交換会に参加</h4><p>毎月の会のご案内が届きます。</p></div>
+      <div class="g-item"><svg viewBox="0 0 48 48"><rect x="8" y="10" width="32" height="22" rx="3"/><path d="M24 32v8M16 40h16"/></svg><h4>作品を発表</h4><p>ミニ発表で作品やアイデアを紹介できます。</p></div>
+      <div class="g-item"><svg viewBox="0 0 48 48"><path d="M8 12h22v14H16l-8 6z"/><path d="M40 20v14l-6-4H22v-4"/></svg><h4>技術の相談</h4><p>運営メンバーや会員同士で技術の話ができます。</p></div>
+      <div class="g-item"><svg viewBox="0 0 48 48"><path d="M8 12h32v24H8z"/><path d="M8 12l16 13 16-13"/></svg><h4>お知らせを受け取る</h4><p>AIの役立つ情報や会の予定をメールで届けます。</p></div>
+      <div class="g-item"><svg viewBox="0 0 48 48"><circle cx="17" cy="18" r="6"/><circle cx="33" cy="18" r="6"/><path d="M6 38q11-14 22 0M22 38q11-14 22 0"/></svg><h4>仲間とつながる</h4><p>興味の近い会員と知り合えます。</p></div>
+      <div class="g-item"><svg viewBox="0 0 48 48"><path d="M24 6l5 11 12 1-9 8 3 12-11-7-11 7 3-12-9-8 12-1z"/></svg><h4>プロジェクトに参加</h4><p>社会に役立つ会員発の取り組みに加われます。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 会員プラン ===== -->
+<section class="sec plan-sec" id="plan">
+  <div class="in">
+    <h2 class="h2 center">会員プラン</h2>
+    <div class="plan-card">
+      <span class="plan-badge">ひとつだけ</span>
+      <h3>一般会員</h3>
+      <p class="price"><b>0</b>円<small>／月</small></p>
+      <dl class="plan-spec">
+        <div><dt>入会金</dt><dd>0円</dd></div>
+        <div><dt>情報交換会</dt><dd>毎月参加OK</dd></div>
+        <div><dt>ミニ発表</dt><dd>希望者は発表できる</dd></div>
+        <div><dt>参加方法</dt><dd>会場／オンライン</dd></div>
+      </dl>
+      <p class="note">会場によって飲み物代などが必要な場合は、事前にお知らせします。</p>
+    </div>
+
+    <h3 class="h3 center">参加の流れ</h3>
+    <ol class="mini-steps">
+      <li><span>1</span><h4>無料会員登録</h4><p>このページのフォームから1分で登録できます。</p></li>
+      <li><span>2</span><h4>ご案内メールが届く</h4><p>次回の日程・会場・オンラインURLをお送りします。</p></li>
+      <li><span>3</span><h4>情報交換会に参加</h4><p>手ぶらでOK。まずは聞くだけでも大丈夫です。</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 登録フォーム ===== -->
+<section class="sec join-sec" id="join">
+  <div class="in join-in">
+    <div class="join-head">
+      <h2 class="h2 center">無料会員登録</h2>
+      <p class="center">1分ほどで終わります。登録いただいたメールアドレスに、情報交換会のご案内をお送りします。</p>
+    </div>
+
+    <form id="join-form" class="form" novalidate>
+      <div class="field"><label for="name">お名前 <span class="req">必須</span></label><input id="name" name="name" type="text" autocomplete="name" required placeholder="例：山田 太郎"></div>
+      <div class="field"><label for="email">メールアドレス <span class="req">必須</span></label><input id="email" name="email" type="email" autocomplete="email" required placeholder="例：taro@example.com"></div>
+      <div class="field-row">
+        <div class="field"><label for="area">お住まいの地域 <span class="req">必須</span></label>
+          <select id="area" name="area" required><option value="">選んでください</option><option>福岡市内</option><option>福岡県内（福岡市以外）</option><option>九州・山口（福岡県以外）</option><option>その他の国内</option><option>海外</option></select></div>
+        <div class="field"><label for="job">ご職業 <span class="opt">任意</span></label>
+          <select id="job" name="job"><option value="">選んでください</option><option>会社員・団体職員</option><option>経営者・役員</option><option>個人事業主・フリーランス</option><option>エンジニア・開発者</option><option>学生</option><option>公務員・教員</option><option>その他</option></select></div>
+      </div>
+      <fieldset class="field"><legend>AIとの付き合い方に近いもの <span class="req">必須</span></legend>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="level" value="これから始めたい" required><span>これから始めたい</span></label>
+          <label class="choice"><input type="radio" name="level" value="ChatGPTなどを日常的に使っている"><span>ChatGPTなどを日常的に使っている</span></label>
+          <label class="choice"><input type="radio" name="level" value="エージェントや仕組みを自分でつくっている"><span>エージェントや仕組みを自分でつくっている</span></label>
+          <label class="choice"><input type="radio" name="level" value="仕事としてAIの開発・導入をしている"><span>仕事としてAIの開発・導入をしている</span></label>
+        </div></fieldset>
+      <fieldset class="field"><legend>興味のあるテーマ <span class="opt">いくつでも</span></legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="interests" value="AIエージェントづくり"><span>AIエージェントづくり</span></label>
+          <label class="chip"><input type="checkbox" name="interests" value="業務の自動化"><span>業務の自動化</span></label>
+          <label class="chip"><input type="checkbox" name="interests" value="生成AIの上手な使い方"><span>生成AIの上手な使い方</span></label>
+          <label class="chip"><input type="checkbox" name="interests" value="アプリ・システム開発"><span>アプリ・システム開発</span></label>
+          <label class="chip"><input type="checkbox" name="interests" value="地域・社会課題とAI"><span>地域・社会課題とAI</span></label>
+          <label class="chip"><input type="checkbox" name="interests" value="教育・子どもとAI"><span>教育・子どもとAI</span></label>
+          <label class="chip"><input type="checkbox" name="interests" value="AIの最新ニュース"><span>AIの最新ニュース</span></label>
+        </div></fieldset>
+      <fieldset class="field"><legend>参加しやすい形 <span class="req">必須</span></legend>
+        <div class="choices inline">
+          <label class="choice"><input type="radio" name="style" value="会場" required><span>会場で</span></label>
+          <label class="choice"><input type="radio" name="style" value="オンライン"><span>オンラインで</span></label>
+          <label class="choice"><input type="radio" name="style" value="どちらでも"><span>どちらでも</span></label>
+        </div></fieldset>
+      <div class="field"><label for="message">ひとこと <span class="opt">任意</span></label><textarea id="message" name="message" rows="3" placeholder="いまつくっているもの、聞いてみたいことなど"></textarea></div>
+      <div class="hp" aria-hidden="true"><label for="website">website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+      <label class="agree"><input type="checkbox" name="agree" id="agree" required><span><button type="button" class="linklike" data-open="privacy">個人情報の取り扱い</button>に同意します</span></label>
+      <p class="form-error" id="form-error" role="alert" hidden></p>
+      <button type="submit" class="btn btn-main btn-lg btn-block" id="submit-btn">無料で会員登録する</button>
+    </form>
+
+    <div class="done" id="done" hidden tabindex="-1">
+      <svg viewBox="-60 -60 120 120" class="done-mark" aria-hidden="true"><rect x="-50" y="-14" width="100" height="28" rx="14" fill="none" stroke="var(--mint)" stroke-width="7"/><rect x="-14" y="-50" width="28" height="100" rx="14" fill="none" stroke="var(--sky)" stroke-width="7"/></svg>
+      <h3>会員登録が完了しました</h3>
+      <p id="done-text">ようこそ、AIフロンティアへ。次回の情報交換会のご案内をメールでお送りします。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="sec faq-sec" id="faq">
+  <div class="in faq-in">
+    <h2 class="h2 center">よくある質問</h2>
+    <details><summary><i>Q</i>本当に無料ですか？</summary><div class="ans"><i>A</i><p>はい、会員登録も会費も無料です。会場によって飲み物代などがかかる場合は、事前にお知らせします。</p></div></details>
+    <details><summary><i>Q</i>プログラミングができなくても参加できますか？</summary><div class="ans"><i>A</i><p>できます。「これから始めたい」という方も大歓迎です。むずかしい言葉は使わず、誰でもついていける進め方を心がけています。</p></div></details>
+    <details><summary><i>Q</i>毎回参加しないといけませんか？</summary><div class="ans"><i>A</i><p>いいえ。出られる回だけ、気軽にご参加ください。</p></div></details>
+    <details><summary><i>Q</i>発表しないといけませんか？</summary><div class="ans"><i>A</i><p>いいえ。発表は希望者のみです。聞くだけの参加も歓迎しています。</p></div></details>
+    <details><summary><i>Q</i>福岡以外に住んでいても参加できますか？</summary><div class="ans"><i>A</i><p>オンラインでの参加を予定していますので、どこからでもご参加いただけます。</p></div></details>
+    <details><summary><i>Q</i>運営会社から営業の連絡が来たりしませんか？</summary><div class="ans"><i>A</i><p>登録情報は、AIフロンティアのご案内と運営のために使います。ご本人の希望なく、営業目的のご連絡はしません。</p></div></details>
+    <details><summary><i>Q</i>退会したいときは？</summary><div class="ans"><i>A</i><p>ご案内メールに返信するか、運営までご連絡ください。登録情報を削除します。</p></div></details>
+  </div>
+</section>
+
+<!-- ===== CTA帯 ===== -->
+<section class="cta-band">
+  <p class="cta-catch">はじめての方も、手ぶらで参加できます。</p>
+  <div class="cta-btns">
+    <a href="#join" class="btn btn-main btn-lg"><small>1分でカンタン</small>無料で会員登録する</a>
+    <a href="https://digitas-w.com/" class="btn btn-sub btn-lg" target="_blank" rel="noopener">運営会社を見る</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="in">
+    <ul class="f-links">
+      <li><button type="button" class="linklike" data-open="privacy">個人情報の取り扱い</button></li>
+      <li><a href="#faq">よくある質問</a></li>
+      <li><a href="https://digitas-w.com/" target="_blank" rel="noopener">運営会社（株式会社デジたす）</a></li>
+    </ul>
+    <div class="f-protect">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5z"/><path d="M8 12l3 3 5-6"/></svg>
+      <p><b>登録情報の取り扱いについて</b>ご登録いただいた情報は、AIフロンティアの運営とご案内のためだけに使い、ご本人の同意なく第三者に渡すことはありません。</p>
+    </div>
+    <img src="logo.png" alt="AIフロンティア" class="f-logo" width="260" height="61">
+    <p class="copy">© <span id="year"></span> AIフロンティア ／ 運営：株式会社デジたす（福岡市博多区）</p>
+  </div>
+</footer>
+
+<a href="#join" class="floating" id="floating"><span class="fl-ico" aria-hidden="true">＋</span>無料で会員登録</a>
+
+<dialog id="privacy" class="dialog" aria-labelledby="privacy-title">
+  <h2 id="privacy-title">個人情報の取り扱い</h2>
+  <p>AIフロンティア（運営：株式会社デジたす）は、会員登録でお預かりした情報を、次のとおり大切に取り扱います。</p>
+  <ul>
+    <li>使う目的：情報交換会などのご案内、会の運営、参加者の傾向をつかむための集計（個人が分からない形）。</li>
+    <li>第三者への提供：法令にもとづく場合を除き、ご本人の同意なく第三者に渡しません。</li>
+    <li>管理：必要な人だけが見られるようにして保管します。</li>
+    <li>確認・削除：ご自身の情報の確認や削除をご希望の場合は、運営までご連絡ください。</li>
+  </ul>
+  <button type="button" class="btn btn-main" data-close>閉じる</button>
+</dialog>
+
+<script src="config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
